@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    height: 100vh;
+    color: #333;
+    background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-container{
+    height: 62%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.color-change{
+    background-color: rgb(218, 170, 185);
+}
+
+img{
+    width: 100px;
+    margin-top: 80px;
+    visibility: hidden;
+}
+
+.player-1{
+    background-color: rgb(218, 170, 185);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.player-2{
+    background-color: rgb(201, 137, 179);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.player-1, .player-2{
+    width: 50%;
+}
+
+.heading{
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.player-1-score, .player-2-score{
+    margin-top: 40px;
+    font-size: 60px;
+}
+
+.current-score-container{
+    background-color: #753682;
+    width: 50%;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    height: 18%;
+    color: white;
+}
+
+.player-1-c-score, .player-2-c-score{
+    margin-top: 15px;
+    font-size: 40px;
+}
+
+.current-heading{
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.buttons-container{
+    position: absolute;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button{
+    font-size: 18px;
+}
+
+.new-game{
+    height: 40px;
+    border-radius: 20px;
+    width: 170px;
+}
+
+.roll-dice{
+    margin-top: 185px;
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.hold{
+    margin-top: 20px;
+    height: 35px;
+    border-radius: 20px;
+    width: 100px;
+}
